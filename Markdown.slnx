@@ -1,15 +1,26 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src\Wangkanai.Markdown.csproj" />
+  <Folder Name="/.claude/" />
+  <Folder Name="/.github/">
+    <File Path=".github\FUNDING.yml" />
+    <File Path=".github\RELEASE.yml" />
+    <File Path=".github\workflows\dotnet.yml" />
   </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests\Wangkanai.Markdown.Tests.csproj" />
+  <Folder Name="/.solutions/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="build.ps1" />
+    <File Path="Directory.Build.props" />
+    <File Path="INSTALL.md" />
+    <File Path="LICENSE" />
+    <File Path="md-styles.css" />
+    <File Path="README.md" />
+    <File Path="sign.ps1" />
   </Folder>
   <Folder Name="/benchmark/">
     <Project Path="benchmark\Wangkanai.Markdown.Benchmark.csproj" />
   </Folder>
-  <File Path="README.md" />
-  <File Path="Directory.Build.props" />
-  <File Path="build.ps1" />
-  <File Path="sign.ps1" />
+  <Folder Name="/tests/">
+    <Project Path="tests\Wangkanai.Markdown.Tests.csproj" />
+  </Folder>
+  <Project Path="src\Wangkanai.Markdown.csproj" />
 </Solution>
