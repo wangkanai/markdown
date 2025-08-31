@@ -1,17 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "0cqsa3W+X+8=",
-  "success": false,
+  "dgSpecHash": "XaL9BF2ljy8=",
+  "success": true,
   "projectFilePath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1008",
-      "level": "Error",
-      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: Wangkanai.Detection;Wangkanai.Mvc.",
-      "projectPath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
-      "filePath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "expectedPackageFiles": [
+    "/Users/wangkanai/.nuget/packages/jetbrains.annotations/2024.3.0/jetbrains.annotations.2024.3.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.0/microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.0/microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.build.tasks.git/8.0.0/microsoft.build.tasks.git.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0/microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0/microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0/microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.identity.core/8.0.0/microsoft.extensions.identity.core.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.identity.stores/8.0.0/microsoft.extensions.identity.stores.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.sourcelink.common/8.0.0/microsoft.sourcelink.common.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/microsoft.sourcelink.github/8.0.0/microsoft.sourcelink.github.8.0.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/wangkanai.domain/5.0.0-beta-8/wangkanai.domain.5.0.0-beta-8.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/wangkanai.extensions.internal/4.5.0/wangkanai.extensions.internal.4.5.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/wangkanai.mvc/3.5.0/wangkanai.mvc.3.5.0.nupkg.sha512",
+    "/Users/wangkanai/.nuget/packages/wangkanai.system/5.8.0/wangkanai.system.5.8.0.nupkg.sha512"
+  ],
+  "logs": []
 }

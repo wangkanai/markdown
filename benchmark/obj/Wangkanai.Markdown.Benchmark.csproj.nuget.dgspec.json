@@ -75,6 +75,7 @@
             "Microsoft.TestPlatform.TestHost": "17.14.1",
             "Moq": "4.20.72",
             "Wangkanai.Domain": "5.0.0-Beta-8",
+            "Wangkanai.Mvc": "3.5.0",
             "Wangkanai.System": "5.8.0",
             "xunit.analyzers": "1.22.0",
             "xunit.runner.visualstudio": "3.1.1",
@@ -148,13 +149,20 @@
               "version": "[8.0.0, )",
               "versionCentrallyManaged": true
             },
-            "Wangkanai.Detection": {
+            "Wangkanai.Domain": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[5.0.0-Beta-8, )",
+              "versionCentrallyManaged": true
             },
             "Wangkanai.Mvc": {
               "target": "Package",
-              "version": "[3.5.0, )"
+              "version": "[3.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Wangkanai.System": {
+              "target": "Package",
+              "version": "[5.8.0, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -171,6 +179,7 @@
             "Microsoft.TestPlatform.TestHost": "17.14.1",
             "Moq": "4.20.72",
             "Wangkanai.Domain": "5.0.0-Beta-8",
+            "Wangkanai.Mvc": "3.5.0",
             "Wangkanai.System": "5.8.0",
             "xunit.analyzers": "1.22.0",
             "xunit.runner.visualstudio": "3.1.1",

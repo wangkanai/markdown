@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 
-using Wangkanai.Detection;
 using Wangkanai.Markdown;
 using Wangkanai.Markdown.DependencyInjection.Options;
 using Wangkanai.Markdown.Infrastructure;
@@ -23,10 +22,6 @@ internal static class MarkdownCoreBuilderExtensions
    {
       // Hosting doesn't add IHttpContextAccessor by default
       builder.Services.AddHttpContextAccessor();
-
-      // Add DetectionMvc Options
-      builder.Services.AddOptions();
-      builder.Services.TryAddSingleton(provider => provider.GetRequiredService<IOptions<DetectionOptions>>().Value);
 
       return builder;
    }

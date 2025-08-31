@@ -29,12 +29,12 @@
       <RepoRoot Condition=" '$(RepoRoot)' == '' OR !HasTrailingSlash('$(RepoRoot)') ">$(MSBuildThisFileDirectory)</RepoRoot>
    </PropertyGroup>
 
-   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Nation'">
+   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Markdown'">
       <PackageIcon>wangkanai-logo.png</PackageIcon>
       <PackageReadmeFile>README.md</PackageReadmeFile>
    </PropertyGroup>
 
-   <ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Nation'">
+   <ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Markdown'">
       <None Include="$(RepoRoot)\Assets\wangkanai-logo.png" Pack="true" PackagePath="\"/>
       <None Include="$(RepoRoot)README.md" Pack="true" PackagePath="\"/>
    </ItemGroup>
