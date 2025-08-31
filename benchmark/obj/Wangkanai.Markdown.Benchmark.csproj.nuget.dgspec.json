@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wangkanai/Sources/markdown/benchmark/Wangkanai.Markdown.Benchmark.csproj": {}
+  },
+  "projects": {
+    "/Users/wangkanai/Sources/markdown/benchmark/Wangkanai.Markdown.Benchmark.csproj": {
+      "version": "3.4.0",
+      "restore": {
+        "projectUniqueName": "/Users/wangkanai/Sources/markdown/benchmark/Wangkanai.Markdown.Benchmark.csproj",
+        "projectName": "Wangkanai.Markdown.Benchmark",
+        "projectPath": "/Users/wangkanai/Sources/markdown/benchmark/Wangkanai.Markdown.Benchmark.csproj",
+        "packagesPath": "/Users/wangkanai/.nuget/packages/",
+        "outputPath": "/Users/wangkanai/Sources/markdown/benchmark/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wangkanai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj": {
+                "projectPath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.15.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj": {
+      "version": "3.4.0",
+      "restore": {
+        "projectUniqueName": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
+        "projectName": "Wangkanai.Markdown",
+        "projectPath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
+        "packagesPath": "/Users/wangkanai/.nuget/packages/",
+        "outputPath": "/Users/wangkanai/Sources/markdown/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wangkanai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Wangkanai.Detection": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Wangkanai.Mvc": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Wangkanai.Markdown/3.4.0": {
+        "dependencies": {
+          "Wangkanai.Detection": "4.0.0",
+          "Wangkanai.Mvc": "3.5.0"
+        },
+        "runtime": {
+          "Wangkanai.Markdown.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2021.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.2.0.0",
+            "fileVersion": "2021.2.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {},
+      "Wangkanai.Detection/4.0.0": {
+        "dependencies": {
+          "Wangkanai.Runtime": "0.7.302"
+        },
+        "runtime": {
+          "lib/net5.0/Wangkanai.Detection.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Wangkanai.Extensions.Internal/4.5.0": {
+        "dependencies": {
+          "Wangkanai.System": "5.8.0"
+        },
+        "runtime": {
+          "lib/net8.0/Wangkanai.Extensions.Internal.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
+      "Wangkanai.Mvc/3.5.0": {
+        "dependencies": {
+          "Wangkanai.Extensions.Internal": "4.5.0",
+          "Wangkanai.System": "5.8.0"
+        },
+        "runtime": {
+          "lib/net8.0/Wangkanai.Mvc.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "Wangkanai.Runtime/0.7.302": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Wangkanai.Runtime.dll": {
+            "assemblyVersion": "0.7.302.0",
+            "fileVersion": "0.7.302.0"
+          }
+        }
+      },
+      "Wangkanai.System/5.8.0": {
+        "runtime": {
+          "lib/net8.0/Wangkanai.System.dll": {
+            "assemblyVersion": "5.8.0.0",
+            "fileVersion": "5.8.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wangkanai.Markdown/3.4.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JetBrains.Annotations/2021.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kKSyoVfndMriKHLfYGmr0uzQuI4jcc3TKGyww7buJFCYeHb/X0kodYBPL7n9454q7v6ASiRmDgpPGaDGerg/Hg==",
+      "path": "jetbrains.annotations/2021.2.0",
+      "hashPath": "jetbrains.annotations.2021.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iuZIiZ3mteEb+nsUqpGXKx2cGF+cv6gWPd5jqQI4hzqdiJ6I94ddLjKhQOuRW1lueHwocIw30xbSHGhQj0zjdQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "Wangkanai.Detection/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MnDsiUk77cKu9tiTjuZ35C9iLzfBw8HAxJtM7fPYNjLCUZivY9OEhG6jvEhBw2tWsueeejsISAIHHeMsss/5og==",
+      "path": "wangkanai.detection/4.0.0",
+      "hashPath": "wangkanai.detection.4.0.0.nupkg.sha512"
+    },
+    "Wangkanai.Extensions.Internal/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eDOziWCEAyvor6Pkj1o6nQYlaE9ZWmOlbPcAAc43NbqZG9mXI+dToDvbgjpP25dBOp8ktG8syqtA0N19HiAWvw==",
+      "path": "wangkanai.extensions.internal/4.5.0",
+      "hashPath": "wangkanai.extensions.internal.4.5.0.nupkg.sha512"
+    },
+    "Wangkanai.Mvc/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xTku1MGiCR605HpFUUXXMVDIbG0i0Zz2qgJlBY4k/enOZkwWQSD7Rw5L4EDEd3pZgNZ5sWJw6tKtX6JAe5cl6w==",
+      "path": "wangkanai.mvc/3.5.0",
+      "hashPath": "wangkanai.mvc.3.5.0.nupkg.sha512"
+    },
+    "Wangkanai.Runtime/0.7.302": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ffGn+d2kkI9VT1/7y8sPsNxF/7/frL+su8jn4c1t/08cfdxkLyU2zVG7Q8B/sgQUOQY+BVXhvyh9vaayLAqUuA==",
+      "path": "wangkanai.runtime/0.7.302",
+      "hashPath": "wangkanai.runtime.0.7.302.nupkg.sha512"
+    },
+    "Wangkanai.System/5.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2FbVGr41ZJeP0q0Ym+MNs7v8RbZj0u9CQBA5VnaHVx26HwwFtVmhzn1d9q9+0ap476YE3HEie13RB7kHy6ybRA==",
+      "path": "wangkanai.system/5.8.0",
+      "hashPath": "wangkanai.system.5.8.0.nupkg.sha512"
+    }
+  }
+}

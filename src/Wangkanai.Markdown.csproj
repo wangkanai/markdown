@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <ItemGroup>
+      <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+   </ItemGroup>
+
+   <ItemGroup>
+      <PackageReference Include="Wangkanai.Detection" Version="4.0.0"/>
+      <PackageReference Include="Wangkanai.Mvc" Version="3.5.0"/>
+   </ItemGroup>
+
+   <ItemGroup>
+      <EmbeddedResource Update="Resources.resx">
+         <Generator>ResXFileCodeGenerator</Generator>
+         <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+   </ItemGroup>
+
+   <ItemGroup>
+      <Compile Update="Resources.Designer.cs">
+         <DesignTime>True</DesignTime>
+         <AutoGen>True</AutoGen>
+         <DependentUpon>Resources.resx</DependentUpon>
+      </Compile>
+   </ItemGroup>
+
+</Project>

@@ -1,0 +1,373 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "JetBrains.Annotations/2021.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Wangkanai.Detection/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Wangkanai.Runtime": "0.7.302"
+        },
+        "compile": {
+          "lib/net5.0/Wangkanai.Detection.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Wangkanai.Detection.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Wangkanai.Extensions.Internal/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Wangkanai.System": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/Wangkanai.Extensions.Internal.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Wangkanai.Extensions.Internal.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Wangkanai.Mvc/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Wangkanai.Extensions.Internal": "4.5.0",
+          "Wangkanai.System": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/Wangkanai.Mvc.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Wangkanai.Mvc.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Wangkanai.Runtime/0.7.302": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2021.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Wangkanai.Runtime.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Wangkanai.Runtime.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Wangkanai.System/5.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Wangkanai.System.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Wangkanai.System.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JetBrains.Annotations/2021.2.0": {
+      "sha512": "kKSyoVfndMriKHLfYGmr0uzQuI4jcc3TKGyww7buJFCYeHb/X0kodYBPL7n9454q7v6ASiRmDgpPGaDGerg/Hg==",
+      "type": "package",
+      "path": "jetbrains.annotations/2021.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2021.2.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/5.0.0": {
+      "sha512": "iuZIiZ3mteEb+nsUqpGXKx2cGF+cv6gWPd5jqQI4hzqdiJ6I94ddLjKhQOuRW1lueHwocIw30xbSHGhQj0zjdQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "sha512": "cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Wangkanai.Detection/4.0.0": {
+      "sha512": "MnDsiUk77cKu9tiTjuZ35C9iLzfBw8HAxJtM7fPYNjLCUZivY9OEhG6jvEhBw2tWsueeejsISAIHHeMsss/5og==",
+      "type": "package",
+      "path": "wangkanai.detection/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Wangkanai.Detection.dll",
+        "lib/net5.0/Wangkanai.Detection.pdb",
+        "lib/netcoreapp3.1/Wangkanai.Detection.dll",
+        "lib/netcoreapp3.1/Wangkanai.Detection.pdb",
+        "wangkanai-logo.png",
+        "wangkanai.detection.4.0.0.nupkg.sha512",
+        "wangkanai.detection.nuspec"
+      ]
+    },
+    "Wangkanai.Extensions.Internal/4.5.0": {
+      "sha512": "eDOziWCEAyvor6Pkj1o6nQYlaE9ZWmOlbPcAAc43NbqZG9mXI+dToDvbgjpP25dBOp8ktG8syqtA0N19HiAWvw==",
+      "type": "package",
+      "path": "wangkanai.extensions.internal/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Wangkanai.Extensions.Internal.dll",
+        "lib/net8.0/Wangkanai.Extensions.Internal.pdb",
+        "wangkanai-logo.png",
+        "wangkanai.extensions.internal.4.5.0.nupkg.sha512",
+        "wangkanai.extensions.internal.nuspec"
+      ]
+    },
+    "Wangkanai.Mvc/3.5.0": {
+      "sha512": "xTku1MGiCR605HpFUUXXMVDIbG0i0Zz2qgJlBY4k/enOZkwWQSD7Rw5L4EDEd3pZgNZ5sWJw6tKtX6JAe5cl6w==",
+      "type": "package",
+      "path": "wangkanai.mvc/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Wangkanai.Mvc.dll",
+        "lib/net8.0/Wangkanai.Mvc.pdb",
+        "wangkanai-logo.png",
+        "wangkanai.mvc.3.5.0.nupkg.sha512",
+        "wangkanai.mvc.nuspec"
+      ]
+    },
+    "Wangkanai.Runtime/0.7.302": {
+      "sha512": "ffGn+d2kkI9VT1/7y8sPsNxF/7/frL+su8jn4c1t/08cfdxkLyU2zVG7Q8B/sgQUOQY+BVXhvyh9vaayLAqUuA==",
+      "type": "package",
+      "path": "wangkanai.runtime/0.7.302",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Wangkanai.Runtime.dll",
+        "lib/net5.0/Wangkanai.Runtime.pdb",
+        "lib/netcoreapp3.1/Wangkanai.Runtime.dll",
+        "lib/netcoreapp3.1/Wangkanai.Runtime.pdb",
+        "lib/netstandard2.1/Wangkanai.Runtime.dll",
+        "lib/netstandard2.1/Wangkanai.Runtime.pdb",
+        "wangkanai-logo.png",
+        "wangkanai.runtime.0.7.302.nupkg.sha512",
+        "wangkanai.runtime.nuspec"
+      ]
+    },
+    "Wangkanai.System/5.8.0": {
+      "sha512": "2FbVGr41ZJeP0q0Ym+MNs7v8RbZj0u9CQBA5VnaHVx26HwwFtVmhzn1d9q9+0ap476YE3HEie13RB7kHy6ybRA==",
+      "type": "package",
+      "path": "wangkanai.system/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Wangkanai.System.dll",
+        "lib/net8.0/Wangkanai.System.pdb",
+        "wangkanai-logo.png",
+        "wangkanai.system.5.8.0.nupkg.sha512",
+        "wangkanai.system.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Wangkanai.Detection >= 4.0.0",
+      "Wangkanai.Mvc >= 3.5.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/wangkanai/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "3.4.0",
+    "restore": {
+      "projectUniqueName": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
+      "projectName": "Wangkanai.Markdown",
+      "projectPath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
+      "packagesPath": "/Users/wangkanai/.nuget/packages/",
+      "outputPath": "/Users/wangkanai/Sources/markdown/src/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/wangkanai/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Wangkanai.Detection": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Wangkanai.Mvc": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

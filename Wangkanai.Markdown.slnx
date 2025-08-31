@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\Wangkanai.Markdown.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\Wangkanai.Markdown.Tests.csproj" />
+  </Folder>
+  <Folder Name="/benchmark/">
+    <Project Path="benchmark\Wangkanai.Markdown.Benchmark.csproj" />
+  </Folder>
+  <File Path="README.md" />
+  <File Path="Directory.Build.props" />
+  <File Path="build.ps1" />
+  <File Path="sign.ps1" />
+</Solution>
