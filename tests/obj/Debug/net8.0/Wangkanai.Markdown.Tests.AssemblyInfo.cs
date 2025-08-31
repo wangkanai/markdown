@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © Wangkanai")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(@"Transform your ASP.NET Core development with `Markdown` View Engine, a tool that brings the simplicity of Markdown to your views. Say goodbye to complex HTML and Razor syntax and hello to minimalist, easy-to-write Markdown. Join the revolution and experience a new, streamlined approach to view management in ASP.NET Core.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.4.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.4.0+ecc61e0dd691cd722f6a20d897fb48dea05ed648")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.4.0+aa822ace03e5a7baac54e423c1fdbcdf3e591b15")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wangkanai.Markdown.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wangkanai.Markdown.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.4.0.0")]
