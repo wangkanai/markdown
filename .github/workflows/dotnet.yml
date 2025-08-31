@@ -55,8 +55,7 @@ jobs:
         with:
           path: ${{ env.NUGET_PACKAGES }}
           key: ${{ runner.os }}-nuget-${{ hashFiles('**/Directory.Build.props', '**/*.csproj') }}
-          restore-keys: |
-            ${{ runner.os }}-nuget-
+          restore-keys: ${{ runner.os }}-nuget-
 
       # Cache global tools
       - name: Cache .NET tools
@@ -64,8 +63,7 @@ jobs:
         with:
           path: ~/.dotnet/tools
           key: ${{ runner.os }}-dotnet-tools-v3
-          restore-keys: |
-            ${{ runner.os }}-dotnet-tools-
+          restore-keys: ${{ runner.os }}-dotnet-tools-
 
       # Cache build outputs for faster incremental builds
       - name: Cache build outputs
@@ -75,8 +73,7 @@ jobs:
             **/bin/Release
             **/obj/Release
           key: ${{ runner.os }}-build-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-build-
+          restore-keys: ${{ runner.os }}-build-
 
       # Cache SonarCloud scanner and analysis data
       - name: Cache SonarCloud
@@ -86,13 +83,12 @@ jobs:
             ~/.sonar/cache
             .sonarqube
           key: ${{ runner.os }}-sonar-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-sonar-
+          restore-keys: ${{ runner.os }}-sonar-
 
-      - name: Setup .NET 8.0
+      - name: Setup .NET 9.0
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: 9.0.x
 
       # Install tools with conservative optimization
       - name: Install tools
@@ -128,15 +124,13 @@ jobs:
       - name: Restore dependencies
         run: |
           # Optimized restore with stable settings
-          dotnet restore \
-            --verbosity minimal \
-            --runtime linux-x64
+          dotnet restore Markdown.slnx --verbosity minimal
         shell: bash
 
       - name: Build
         run: |
           # Stable build with proven optimizations
-          dotnet build --no-restore -c Release \
+          dotnet build Markdown.slnx --no-restore -c Release \
             -p:TreatWarningsAsErrors=false \
             -p:ContinuousIntegrationBuild=true \
             -p:Deterministic=true \
