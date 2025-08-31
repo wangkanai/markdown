@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/.claude/">
+    <File Path=".repomixignore" />
+    <File Path="repomix.config.json" />
+  </Folder>
+  <Folder Name="/.github/">
+    <File Path=".github\FUNDING.yml" />
+    <File Path=".github\RELEASE.yml" />
+    <File Path=".github\workflows\dotnet.yml" />
+  </Folder>
+  <Folder Name="/.solutions/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="build.ps1" />
+    <File Path="Directory.Build.props" />
+    <File Path="INSTALL.md" />
+    <File Path="LICENSE" />
+    <File Path="md-styles.css" />
+    <File Path="README.md" />
+    <File Path="sign.ps1" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/benchmark/">
+    <Project Path="benchmark\Wangkanai.Markdown.Benchmark.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\Wangkanai.Markdown.Tests.csproj" />
+  </Folder>
+  <Project Path="src\Wangkanai.Markdown.csproj" />
+</Solution>

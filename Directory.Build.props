@@ -1,0 +1,42 @@
+<Project>
+   <PropertyGroup>
+      <VersionPrefix>3.4.0</VersionPrefix>
+      <Title>Wangkanai Markdown</Title>
+      <Description>Transform your ASP.NET Core development with `Markdown` View Engine, a tool that brings the simplicity of Markdown to your views. Say goodbye to complex HTML and Razor syntax and hello to minimalist, easy-to-write Markdown. Join the revolution and experience a new, streamlined approach to view management in ASP.NET Core.</Description>
+      <PackageTags>aspnetcore;markdown;pages</PackageTags>
+
+      <RepositoryType>git</RepositoryType>
+      <RepositoryUrl>https://github.com/wangkanai/markdown</RepositoryUrl>
+      <PackageProjectUrl>https://github.com/wangkanai/markdown</PackageProjectUrl>
+
+      <Company>Wangkanai</Company>
+      <Authors>Sarin Na Wangkanai</Authors>
+      <Copyright>Copyright © Wangkanai</Copyright>
+      <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+      <TargetFramework>net9.0</TargetFramework>
+      <Nullable>enable</Nullable>
+      <ImplicitUsings>enable</ImplicitUsings>
+
+      <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <IncludeSymbols>true</IncludeSymbols>
+      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+   </PropertyGroup>
+
+   <PropertyGroup>
+      <RepoRoot Condition=" '$(RepoRoot)' == '' OR !HasTrailingSlash('$(RepoRoot)') ">$(MSBuildThisFileDirectory)</RepoRoot>
+   </PropertyGroup>
+
+   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Markdown'">
+      <PackageIcon>wangkanai-logo.png</PackageIcon>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+   </PropertyGroup>
+
+   <ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Markdown'">
+      <None Include="$(RepoRoot)\Assets\wangkanai-logo.png" Pack="true" PackagePath="\"/>
+      <None Include="$(RepoRoot)README.md" Pack="true" PackagePath="\"/>
+   </ItemGroup>
+
+</Project>

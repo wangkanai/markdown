@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <ItemGroup>
+      <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+   </ItemGroup>
+
+   <ItemGroup>
+      <PackageReference Include="Wangkanai.System"/>
+      <PackageReference Include="Wangkanai.Domain"/>
+      <PackageReference Include="Wangkanai.Mvc"/>
+   </ItemGroup>
+
+</Project>
