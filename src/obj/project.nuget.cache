@@ -1,19 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NWbEfgB6Dlc=",
-  "success": true,
+  "dgSpecHash": "0cqsa3W+X+8=",
+  "success": false,
   "projectFilePath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
-  "expectedPackageFiles": [
-    "/Users/wangkanai/.nuget/packages/jetbrains.annotations/2021.2.0/jetbrains.annotations.2021.2.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/microsoft.extensions.fileproviders.abstractions/5.0.0/microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/wangkanai.detection/4.0.0/wangkanai.detection.4.0.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/wangkanai.extensions.internal/4.5.0/wangkanai.extensions.internal.4.5.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/wangkanai.mvc/3.5.0/wangkanai.mvc.3.5.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/wangkanai.runtime/0.7.302/wangkanai.runtime.0.7.302.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/wangkanai.system/5.8.0/wangkanai.system.5.8.0.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/wangkanai/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
-  ],
-  "logs": []
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: Wangkanai.Detection;Wangkanai.Mvc.",
+      "projectPath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
+      "filePath": "/Users/wangkanai/Sources/markdown/src/Wangkanai.Markdown.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

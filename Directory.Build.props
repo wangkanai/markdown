@@ -1,53 +1,42 @@
 <Project>
-   <!-- Import central package management -->
-   <!-- <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Directory.Packages.props))\Directory.Packages.props" /> -->
-
    <PropertyGroup>
       <VersionPrefix>3.4.0</VersionPrefix>
       <Title>Wangkanai Markdown</Title>
       <Description>Transform your ASP.NET Core development with `Markdown` View Engine, a tool that brings the simplicity of Markdown to your views. Say goodbye to complex HTML and Razor syntax and hello to minimalist, easy-to-write Markdown. Join the revolution and experience a new, streamlined approach to view management in ASP.NET Core.</Description>
       <PackageTags>aspnetcore;markdown;pages</PackageTags>
-      <PackageProjectUrl>https://github.com/wangkanai/markdown</PackageProjectUrl>
-      
-      <!-- Repository Information -->
-      <RepositoryUrl>https://github.com/wangkanai/markdown</RepositoryUrl>
+
       <RepositoryType>git</RepositoryType>
-      <RepositoryBranch>main</RepositoryBranch>
-      
-      <!-- Package Information -->
-      <Authors>Sarin Na Wangkanai</Authors>
+      <RepositoryUrl>https://github.com/wangkanai/markdown</RepositoryUrl>
+      <PackageProjectUrl>https://github.com/wangkanai/markdown</PackageProjectUrl>
+
       <Company>Wangkanai</Company>
+      <Authors>Sarin Na Wangkanai</Authors>
       <Copyright>Copyright © Wangkanai</Copyright>
       <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-      <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-      
-      <!-- Build Configuration -->
-      <LangVersion>latest</LangVersion>
-      <TargetFramework>net8.0</TargetFramework>
+
+      <TargetFramework>net9.0</TargetFramework>
       <Nullable>enable</Nullable>
       <ImplicitUsings>enable</ImplicitUsings>
-      <GenerateDocumentationFile>true</GenerateDocumentationFile>
-      
-      <!-- Quality -->
-      <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-      <WarningsAsErrors />
-      <WarningsNotAsErrors />
-      
-      <!-- Assembly Info -->
-      <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-      <GenerateAssemblyVersionInfo>true</GenerateAssemblyVersionInfo>
-      <AssemblyVersion>$(VersionPrefix).0</AssemblyVersion>
-      <FileVersion>$(VersionPrefix).0</FileVersion>
+
+      <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <IncludeSymbols>true</IncludeSymbols>
+      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
    </PropertyGroup>
 
-   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Markdown'">
+   <PropertyGroup>
+      <RepoRoot Condition=" '$(RepoRoot)' == '' OR !HasTrailingSlash('$(RepoRoot)') ">$(MSBuildThisFileDirectory)</RepoRoot>
+   </PropertyGroup>
+
+   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Nation'">
       <PackageIcon>wangkanai-logo.png</PackageIcon>
       <PackageReadmeFile>README.md</PackageReadmeFile>
    </PropertyGroup>
 
-   <ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Markdown'">
-      <None Include="$(MSBuildThisFileDirectory)Assets\wangkanai-logo.png" Pack="true" PackagePath="\" />
-      <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" />
+   <ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Nation'">
+      <None Include="$(RepoRoot)\Assets\wangkanai-logo.png" Pack="true" PackagePath="\"/>
+      <None Include="$(RepoRoot)README.md" Pack="true" PackagePath="\"/>
    </ItemGroup>
 
 </Project>
